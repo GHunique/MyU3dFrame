@@ -176,6 +176,7 @@
      <Compile Include="Assets\Scripts\ChangePlayerEquipment.cs" />
      <Compile Include="Assets\Scripts\Global.cs" />
      <Compile Include="Assets\Scripts\MapCamera.cs" />
+     <Compile Include="Assets\Scripts\UGBaseClasses\UGObject.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />

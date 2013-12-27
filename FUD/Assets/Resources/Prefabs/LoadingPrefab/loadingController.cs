@@ -20,24 +20,41 @@ public class loadingController : MonoBehaviour
 	[HideInInspector][SerializeField] float m_progress = 0.2f;
 	public float mValue{get{return m_progress;} set{m_progress = value;}}
 
+	//使用自定义进度条速度，进度(默认 true)
+	[HideInInspector][SerializeField] bool m_isCalculate = true;
+	public bool isCalculate{get {return m_isCalculate;} set{m_isCalculate = value;}}
+
+	//使用真实的加载场景的进度设置进度条
+	[HideInInspector][SerializeField] string m_sceneName = "MainCity";
+	public string SceneName{get{return m_sceneName;} set{m_sceneName = value;}}
+
 	AsyncOperation MyAsync = null;
 
 	void Start ()
 	{
-		m_slider = gameObject.GetComponent<UISlider>();
+		m_slider = gameObject.GetComponentInChildren<UISlider>();
 		m_slider.value = 0;
 
-//		StartCoroutine(loadScene());
+		Global.NextScene(m_sceneName);
+
+		triggerTarget = gameObject;
+		triggerFunctionName = "nextLevel";
+
+		if(!m_isCalculate) StartCoroutine(loadScene());
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		//定时增长进度
-		this.setProgress(m_progress);
-
-		//根据读取场景进度设置进度条
-//		calculateProgress();
+		if(m_isCalculate)
+		{
+			//定时增长进度
+			this.setProgress(m_progress);
+		}else
+		{
+			//根据读取场景进度设置进度条
+			calculateProgress();
+		}
 
 	}
 
@@ -53,8 +70,7 @@ public class loadingController : MonoBehaviour
 	{
 		print(" loaded scene : "+ Global.nextScene + "preScene: " +Global.preScene );
 
-//		Application.LoadLevel(Global.nextScene);
-
+		Application.LoadLevel(Global.nextScene);
 
 	}
 
@@ -83,6 +99,7 @@ public class loadingController : MonoBehaviour
 		}else if(m_slider.value >= 1)
 		{
 			this.setTriger(triggerTarget,triggerFunctionName);
+
 		}
 	}
 
