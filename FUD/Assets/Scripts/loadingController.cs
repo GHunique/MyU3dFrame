@@ -27,7 +27,7 @@ public class loadingController : MonoBehaviour
 		m_slider = this.GetComponent<UISlider>();
 		m_slider.value = 0;
 
-		StartCoroutine(loadScene());
+//		StartCoroutine(loadScene());
 	}
 	
 	// Update is called once per frame
@@ -37,7 +37,7 @@ public class loadingController : MonoBehaviour
 //		this.setProgress(m_progress);
 
 		//根据读取场景进度设置进度条
-		calculateProgress();
+//		calculateProgress();
 
 	}
 
@@ -53,19 +53,14 @@ public class loadingController : MonoBehaviour
 	{
 		print(" loaded scene : "+ Global.nextScene + "preScene: " +Global.preScene );
 
-//		Application.LoadLevel("test2.5d");
-//		GameObject loadingLayer = GameObject.FindWithTag("LoadingLayer");
-//		loadingLayer.SetActive(false);
-//		Object.Destroy(loadingLayer);
-//
-//		GameObject TerrainLayer = GameObject.Find("TerrainLayer");
-//		Object.Destroy(TerrainLayer,1f);
+//		Application.LoadLevel(Global.nextScene);
+
 
 	}
 
 	IEnumerator loadScene()
 	{
-
+		print(" MainCity - Name : "  + Global.nextScene);
 		MyAsync = Application.LoadLevelAsync(Global.nextScene);
 
 		yield return MyAsync;
