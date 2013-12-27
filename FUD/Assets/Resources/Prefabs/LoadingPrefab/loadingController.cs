@@ -24,7 +24,7 @@ public class loadingController : MonoBehaviour
 
 	void Start ()
 	{
-		m_slider = this.GetComponent<UISlider>();
+		m_slider = gameObject.GetComponent<UISlider>();
 		m_slider.value = 0;
 
 //		StartCoroutine(loadScene());
@@ -34,7 +34,7 @@ public class loadingController : MonoBehaviour
 	void Update () 
 	{
 		//定时增长进度
-//		this.setProgress(m_progress);
+		this.setProgress(m_progress);
 
 		//根据读取场景进度设置进度条
 //		calculateProgress();
