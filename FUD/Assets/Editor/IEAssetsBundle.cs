@@ -61,16 +61,16 @@ static void CreateAssetBunldesALL ()
 	[MenuItem("Assets/BuildAssetBundle FromSelection - Track dependencies")]
 	static void ExportResource()
 	{
-		string path = EditorUtility.SaveFilePanel("Save Resource","","New Resource","unity3d");
+		string path = EditorUtility.SaveFilePanel("Save Resource","","PlayerAsset","unity3d");
 		if(path.Length != 0)
 		{
 			Object [] selection = Selection.GetFiltered(typeof(Object),SelectionMode.DeepAssets);
-			if(BuildPipeline.BuildAssetBundle(Selection.activeObject,selection,path,BuildAssetBundleOptions.CollectDependencies|BuildAssetBundleOptions.CompleteAssets,BuildTarget.StandaloneOSXIntel64))
+			if(BuildPipeline.BuildAssetBundle(Selection.activeObject,selection,path,BuildAssetBundleOptions.CollectDependencies|BuildAssetBundleOptions.CompleteAssets,BuildTarget.iPhone))
 			{
-				Debug.Log("资源打包成功");
+				Debug.Log("Track dependencies 资源打包成功");
 			}else
 			{
-				Debug.Log("资源打包失败");
+				Debug.Log("Track dependencies 资源打包失败");
 			}
 
 			Selection.objects = selection;
@@ -86,12 +86,45 @@ static void CreateAssetBunldesALL ()
 		{
 			if( BuildPipeline.BuildAssetBundle(Selection.activeObject,Selection.objects,path))
 			{
-				Debug.Log("资源打包成功");
+				Debug.Log("No dependency tracking 资源打包成功");
 			}else
 			{
-				Debug.Log("资源打包失败");
+				Debug.Log("No dependency tracking 资源打包失败");
 			}
 		}
 	}
+
+
+//	[MenuItem("Custom Editor/Create AssetBunldes")]
+//	static void ExecCreateAssetBunldes() {
+//		
+//		// AssetBundle 的目录名及扩展名
+//		string targetDir = "_AssetBunldes";
+//		string extensionName = ".assetBundles";
+//		
+//		//取得在 Project 视图中选择的资源(包含子目录中的资源)
+//		Object[] SelectedAsset = Selection.GetFiltered(typeof (Object), SelectionMode.DeepAssets);
+//
+//		//建立存放 AssetBundle 的目录
+//		if(!Directory.Exists(targetDir)) Directory.CreateDirectory(targetDir);
+//		
+//		foreach(Object obj in SelectedAsset){
+//			// 资源文件的路径
+//			string sourcePath = AssetDatabase.GetAssetPath(obj);
+//			
+//			// AssetBundle 存储路径
+//			string targetPath = targetDir + Path.DirectorySeparatorChar + obj.name + extensionName;
+//			if(File.Exists(targetPath)) File.Delete(targetPath);
+//			
+//			if(!(obj is GameObject) && !(obj is Texture2D) && !(obj is Material)) continue;
+//			
+//			//建立 AssetBundle
+//			if(BuildPipeline.BuildAssetBundle(obj, null, targetPath, BuildAssetBundleOptions.CollectDependencies)){
+//				Debug.Log(obj.name + "建立完成");
+//			} else {
+//				Debug.Log(obj.name + "建立失败");
+//			}
+//		}
+//	}
 
 }

@@ -10,19 +10,25 @@ public class CameraFPlayer : MonoBehaviour {
 	private GameObject hovercraft;		// to store the hovercraft
 	private Vector3 targetPosition;		// the position the camera is trying to be in
 	public float cameraheight = 5.0f;
-	Transform follow;
+	Transform follow = null;
 
 	public float interval_x = 1.01f;
 	public float interval_z =  -3.57f;
 
 	void Start(){
-		follow = GameObject.FindWithTag ("Player").transform;	
+
+		print("CameraFPlayer ------");
+
+		if(GameObject.FindWithTag ("Player"))
+		follow = GameObject.FindWithTag ("Player").transform;
 	}
 
 	void Update()
 	{
-
+		if(follow != null)
 		this.transform.position = new Vector3(follow.position.x + interval_x,cameraheight,follow.position.z + interval_z);
+		else if(GameObject.FindWithTag ("Player"))
+			follow = GameObject.FindWithTag ("Player").transform;	
 	}
 	
 	void LateUpdate ()
