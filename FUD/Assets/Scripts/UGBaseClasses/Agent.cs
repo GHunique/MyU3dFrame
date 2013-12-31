@@ -117,4 +117,10 @@ public class Agent : MonoBehaviour {
 
 		SetupAgentLocomotion();
 	}
+
+	void OnDestroy()
+	{
+		locomotion.Dispose();
+		locomotion = null;
+	}
 }

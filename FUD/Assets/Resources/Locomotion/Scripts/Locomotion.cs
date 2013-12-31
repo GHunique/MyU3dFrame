@@ -1,7 +1,8 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
-public class Locomotion
+public class Locomotion : IDisposable
 {
     private Animator m_Animator = null;
     
@@ -41,4 +42,9 @@ public class Locomotion
         m_Animator.SetFloat(m_AgularSpeedId, angularSpeed, angularSpeedDampTime, Time.deltaTime);
         m_Animator.SetFloat(m_DirectionId, direction, directionDampTime, Time.deltaTime);
     }	
+
+	public void Dispose ()
+	{
+
+	}
 }

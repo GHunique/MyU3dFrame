@@ -15,4 +15,10 @@ public class Global {
 			Global.nextScene = sceneName;
 		}
 	}
+
+	public static int Version
+	{
+		set{PlayerPrefs.SetInt("Version",value); } 
+		get{return PlayerPrefs.GetInt("Version");}
+	}
 }

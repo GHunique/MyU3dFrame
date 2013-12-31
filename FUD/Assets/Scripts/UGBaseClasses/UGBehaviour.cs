@@ -70,9 +70,15 @@ public class UGBehaviour : MonoBehaviour {
 
 	private IEnumerator LoadFromCacheOrDownload(string path)
 	{
-		print(" -----0000000---------- " + _assetBundle);
+		print(" -----0000000---------- " + Global.Version);
 		// 载入 AssetBundle
-		WWW www =  WWW.LoadFromCacheOrDownload(path,1);
+
+		if(Caching.IsVersionCached(path,Global.Version))
+		{
+			Debug.LogWarning("这个版本的资源已经缓存了。为了继续加载资源，要清理缓存！");
+		}
+
+		WWW www =  WWW.LoadFromCacheOrDownload(path,Global.Version);
 		//等待载入完成
 		yield return www;
 

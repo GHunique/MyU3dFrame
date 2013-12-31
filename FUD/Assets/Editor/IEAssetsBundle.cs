@@ -52,8 +52,6 @@ static void CreateAssetBunldesALL ()
 	} else {
 		
 	}
-
-	
 }
 
 
@@ -65,7 +63,7 @@ static void CreateAssetBunldesALL ()
 		if(path.Length != 0)
 		{
 			Object [] selection = Selection.GetFiltered(typeof(Object),SelectionMode.DeepAssets);
-			if(BuildPipeline.BuildAssetBundle(Selection.activeObject,selection,path,BuildAssetBundleOptions.CollectDependencies|BuildAssetBundleOptions.CompleteAssets,BuildTarget.iPhone))
+			if(BuildPipeline.BuildAssetBundle(Selection.activeObject,selection,path,BuildAssetBundleOptions.CollectDependencies|BuildAssetBundleOptions.CompleteAssets,BuildTarget.StandaloneOSXUniversal))
 			{
 				Debug.Log("Track dependencies 资源打包成功");
 			}else

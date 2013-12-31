@@ -6,6 +6,7 @@ public class CreatePlayer : UGBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+		Global.Version = 0;
 		LoadAsset("PlayerAsset",gameObject,"AssetsLoaded");
 	}
 	
@@ -17,19 +18,21 @@ public class CreatePlayer : UGBehaviour {
 
 	public void ReleaseAsset()
 	{
-		UnloadResource(true);
-		print(" Player ReleaseAsset ");
+
+//		GameObject.DestroyImmediate(gameObject);
+		UnloadAsset(true);
+//		print(" Player ReleaseAsset ");
 	}
 
 	void OnDestroy()
 
 	{
-//		print(" CreatePlayer Script Destroied ");	
+		print(" CreatePlayer Script Destroied ");	
 	}
 
 	void AssetsLoaded()
 	{
-		print("   AssetsLoaded =======  ");
+//		print("   AssetsLoaded =======  ");
 
 		bool flag = false;
 		GameObject player;
@@ -43,10 +46,18 @@ public class CreatePlayer : UGBehaviour {
 			if(_assetBundle != null)
 			{
 				print("LoadAsset Succesfully");
-				Object obj = _assetBundle.Load("Cube");
-//				Object obj = _assetBundle.mainAsset;
-				player = Instantiate(obj) as GameObject;
-				player.transform.position = new Vector3(30f,0f,45f);
+//				Object obj = _assetBundle.Load("U_Character_REF_FB");
+				Object obj = _assetBundle.mainAsset;
+				if(obj == null)
+				{
+					Debug.LogError(" 你所加载的资源为NULL ");
+					UnloadAsset(true);
+				}else
+				{
+					player = Instantiate(obj) as GameObject;
+					player.transform.position = new Vector3(30f,0f,45f);
+				}
+
 			}else
 			{
 				print("LoadAsset Failed !!");
