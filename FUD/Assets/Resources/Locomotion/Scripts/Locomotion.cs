@@ -42,9 +42,14 @@ public class Locomotion : IDisposable
         m_Animator.SetFloat(m_AgularSpeedId, angularSpeed, angularSpeedDampTime, Time.deltaTime);
         m_Animator.SetFloat(m_DirectionId, direction, directionDampTime, Time.deltaTime);
     }	
-
+	
 	public void Dispose ()
 	{
+		Debug.Log(" Locomotion Dispose  --- ");
+	}
 
+	~Locomotion()
+	{
+		Debug.Log(" Locomotion OnDestroy !!!!!!!!!!!! ");
 	}
 }

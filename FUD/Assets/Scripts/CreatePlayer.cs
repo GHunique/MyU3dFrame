@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CreatePlayer : UGBehaviour {
+public class CreatePlayer : UGAssetObject {
+
+	bool flag = false;
 
 	// Use this for initialization
 	void Start () 
@@ -18,26 +20,27 @@ public class CreatePlayer : UGBehaviour {
 
 	public void ReleaseAsset()
 	{
-
-//		GameObject.DestroyImmediate(gameObject);
-		UnloadAsset(true);
+		if(flag) UnloadResource(true);
+			else UnloadAsset(false);
 //		print(" Player ReleaseAsset ");
 	}
 
-	void OnDestroy()
-
+	public void DestroyPlayer()
 	{
-		print(" CreatePlayer Script Destroied ");	
+		Destroy(GameObject.FindGameObjectWithTag("Player"));
+		Resources.UnloadUnusedAssets();
+
+	}
+
+	void OnDestroy()
+	{
+		print(" CreatePlayer Script Destroied ");
 	}
 
 	void AssetsLoaded()
 	{
-//		print("   AssetsLoaded =======  ");
-
-		bool flag = false;
 		GameObject player;
-		
-		//		print("haracters/U_Character/U_Character_REF_FB");
+
 		if(flag){
 			player = LoadResource("Characters/U_Character/U_Character_REF_FB");
 			player.transform.position = new Vector3(30f,0f,45f);
@@ -56,6 +59,7 @@ public class CreatePlayer : UGBehaviour {
 				{
 					player = Instantiate(obj) as GameObject;
 					player.transform.position = new Vector3(30f,0f,45f);
+					UnloadAsset(false);
 				}
 
 			}else

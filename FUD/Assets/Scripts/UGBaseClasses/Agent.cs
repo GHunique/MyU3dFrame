@@ -19,7 +19,8 @@ public class Agent : MonoBehaviour {
 		agent.updateRotation = false;
 
 		animator = GetComponent<Animator>();
-		locomotion = new Locomotion(animator);
+
+		using(locomotion = new Locomotion(animator)){locomotion.Dispose();}
 
 		particleClone = null;
 
@@ -120,7 +121,6 @@ public class Agent : MonoBehaviour {
 
 	void OnDestroy()
 	{
-		locomotion.Dispose();
-		locomotion = null;
+		print(" Agent OnDestroy ");
 	}
 }
