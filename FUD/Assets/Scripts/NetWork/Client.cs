@@ -19,6 +19,8 @@ public class Client : MonoBehaviour {
 
 	void ConnectServer()
 	{
+		Debug.Log(" ConnectServer -- ");
+
 		if(_connectingState == 0)
 		{
 			_connectingState = 1;

@@ -21,6 +21,7 @@ public class Server : MonoBehaviour {
 
 	void StartServer()
 	{
+		Debug.Log(" StartServer  ");
 		Network.useNat = false;
 		Network.InitializeServer(10, Global.ConnectPort);
 	}
