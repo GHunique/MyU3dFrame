@@ -26,6 +26,8 @@ public class Server : MonoBehaviour {
 		Network.InitializeServer(10, Global.ConnectPort);
 	}
 
+
+	
 	void OnDestroy()
 	{
 		UIButton butt = gameObject.GetComponent<UIButton>();

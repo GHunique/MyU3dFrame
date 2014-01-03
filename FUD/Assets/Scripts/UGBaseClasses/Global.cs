@@ -21,7 +21,7 @@ public class Global {
 	public static string preScene = "";
 	public static readonly string LoadingSName = "LoadingScene";
 	public static readonly int ConnectPort = 10010;
-	public static readonly string ConnectIP = "192.168.2.7";
+	public static readonly string ConnectIP = "192.168.2.10";
 
 	public static void  NextScene(string sceneName)
 	{

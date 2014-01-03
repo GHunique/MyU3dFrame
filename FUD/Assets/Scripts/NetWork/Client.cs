@@ -33,6 +33,11 @@ public class Client : MonoBehaviour {
 		Network.Connect(Global.ConnectIP,Global.ConnectPort);
 	}
 
+	void OnFailedToConnect(NetworkConnectionError error) 
+	{
+		Debug.LogWarning("Could not connect to server: " + error);
+	}
+
 	void OnDestroy()
 	{
 		UIButton butt = gameObject.GetComponent<UIButton>();
