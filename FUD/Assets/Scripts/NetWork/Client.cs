@@ -28,6 +28,14 @@ public class Client : MonoBehaviour {
 		{
 
 		}
+
+		UIInput input_IP = (GameObject.FindGameObjectWithTag("Input-IP")).GetComponent<UIInput>();
+		UIInput input_Port = (GameObject.FindGameObjectWithTag("Input-Port")).GetComponent<UIInput>();
+
+		Global.ConnectIP = input_IP.value;
+
+//		if(input_Port.value.Length != 0)
+			Global.ConnectPort = int.Parse( input_Port.value);
 	
 		Network.useNat = false;
 		Network.Connect(Global.ConnectIP,Global.ConnectPort);
@@ -36,6 +44,10 @@ public class Client : MonoBehaviour {
 	void OnFailedToConnect(NetworkConnectionError error) 
 	{
 		Debug.LogWarning("Could not connect to server: " + error);
+	}
+
+	void OnNetworkInstantiate(NetworkMessageInfo info) {
+		Debug.Log("New object instantiated by " + info.sender);
 	}
 
 	void OnDestroy()

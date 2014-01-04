@@ -1,14 +1,14 @@
 10
 
 dir
-11
+27
 svn://xiangshouyong@192.168.1.238/shqz/client3d/plugins
 svn://xiangshouyong@192.168.1.238/shqz/client3d
 
 
 
-2014-01-02T02:09:14.449523Z
-9
+2014-01-03T09:34:54.308068Z
+26
 xiehanqing
 
 
@@ -127,6 +127,40 @@ has-props
 
 
 1063946
+
+uSpeak Voice Chat.unitypackage
+file
+
+
+
+
+2014-01-03T02:36:38.000000Z
+8b171a44b93ade9aad0fc4ed241a4eea
+2014-01-02T07:47:38.035670Z
+16
+xiehanqing
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+261333
 
 StoreKit_2013-03-18.unitypackage
 file
@@ -264,6 +298,40 @@ has-props
 
 153039
 
+NGUI Next-Gen UIv3.0.8.unitypackage
+file
+
+
+
+
+2014-01-03T09:31:12.000000Z
+929574b6db549890a85ad238aef2b7e7
+2014-01-03T09:16:04.663899Z
+24
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11786006
+
 EtceteraAndroid_2013-02-07.unitypackage
 file
 
@@ -297,6 +365,40 @@ has-props
 
 
 122110
+
+Easy Touch 3.1.1.unitypackage
+file
+
+
+
+
+2014-01-03T07:19:18.000000Z
+42bef2440fdf7722f838d8c84cfb2bc0
+2014-01-03T07:07:51.513244Z
+22
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17404761
 
 GameCenter_2013-03-19.unitypackage
 file
@@ -365,38 +467,4 @@ has-props
 
 
 1986581
-
-NGUI v.3.0.5.unitypackage
-file
-
-
-
-
-2014-01-02T02:30:31.000000Z
-9b1d11273286e539d47e9948be9e4652
-2014-01-02T02:08:48.563178Z
-8
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11437592
 

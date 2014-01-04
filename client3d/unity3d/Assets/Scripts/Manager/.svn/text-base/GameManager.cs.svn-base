@@ -36,7 +36,7 @@ public class GameManager : Singleton< GameManager >
 		LoginUIHandler.instance.UnShow();
 
 		GameUIManager.instance.releaseUnusedHandler();
-		GameSpriteManager.instance.releaseUnusedHandler();
+		GameObjectManager.instance.releaseUnusedHandler();
 
 		Resources.UnloadUnusedAssets();
 	}

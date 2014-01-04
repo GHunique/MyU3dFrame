@@ -1,14 +1,14 @@
 10
 
 dir
-11
+27
 svn://xiangshouyong@192.168.1.238/shqz/client3d/unity3d/Assets/3rd
 svn://xiangshouyong@192.168.1.238/shqz/client3d
 
 
 
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -63,6 +63,9 @@ xiehanqing
 NGUI
 dir
 
+EasyTouch
+dir
+
 NGUI.meta
 file
 
@@ -97,6 +100,77 @@ xiehanqing
 
 107
 
+uSpeak
+dir
+
+EasyTouch.meta
+file
+
+
+
+
+2014-01-03T07:19:07.000000Z
+31ab2879eb8222d2a1bf940a7f815456
+2014-01-03T07:11:02.266534Z
+23
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+107
+
 iTween
 dir
+
+uSpeak.meta
+file
+
+
+
+
+2014-01-03T02:36:38.000000Z
+e4fdd331503bdc50b97c8eb4d295b90e
+2014-01-02T07:34:32.543581Z
+14
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+107
 

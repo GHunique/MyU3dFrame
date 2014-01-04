@@ -1,14 +1,14 @@
 10
 
 dir
-11
+27
 svn://xiangshouyong@192.168.1.238/shqz/client3d/unity3d/Assets/Scripts/Manager
 svn://xiangshouyong@192.168.1.238/shqz/client3d
 
 
 
-2013-12-31T08:08:04.392786Z
-6
+2014-01-02T06:06:47.643851Z
+12
 xiehanqing
 
 
@@ -60,16 +60,16 @@ xiehanqing
 
 322
 
-GameSpriteManager.cs
+GameObjectManager.cs
 file
 
 
 
 
-2014-01-02T02:30:27.000000Z
-e6b28ee7e74e1987ab1c60000a1a6a3b
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T02:36:37.000000Z
+03ec2ed6fab6c77d0299c3e08880fbbf
+2014-01-02T06:06:47.643851Z
+12
 xiehanqing
 
 
@@ -92,7 +92,7 @@ xiehanqing
 
 
 
-953
+801
 
 GameDataManager.cs
 file
@@ -196,16 +196,16 @@ xiehanqing
 
 178
 
-GameSpriteManager.cs.meta
+GameObjectManager.cs.meta
 file
 
 
 
 
-2014-01-02T02:30:27.000000Z
-ca798d20e32f66bb41f7fc655eada7c0
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T02:36:37.000000Z
+5c1ab03309bea11746d8620c46c5e1f6
+2014-01-02T06:06:47.643851Z
+12
 xiehanqing
 
 
@@ -228,7 +228,7 @@ xiehanqing
 
 
 
-180
+178
 
 GameUIManager.cs
 file
@@ -304,10 +304,10 @@ file
 
 
 
-2014-01-02T02:30:27.000000Z
-de64a2ee91fb4a63844ee7d579108940
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T02:36:37.000000Z
+8d3d7aef90aa754a459ae86dd0e3b51b
+2014-01-02T06:06:47.643851Z
+12
 xiehanqing
 
 

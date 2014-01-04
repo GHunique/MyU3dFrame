@@ -1,14 +1,14 @@
 10
 
 dir
-11
+27
 svn://xiangshouyong@192.168.1.238/shqz/client3d/unity3d/Assets/Scripts
 svn://xiangshouyong@192.168.1.238/shqz/client3d
 
 
 
-2013-12-31T08:08:04.392786Z
-6
+2014-01-02T08:55:40.851334Z
+18
 xiehanqing
 
 
@@ -63,10 +63,10 @@ xiehanqing
 NetHandler
 dir
 
-Editor
+Debug
 dir
 
-Debug
+Editor
 dir
 
 Socket
@@ -143,40 +143,6 @@ xiehanqing
 
 107
 
-Manager.meta
-file
-
-
-
-
-2014-01-02T02:30:27.000000Z
-30cad8cafb221fcf79ebc036a5ce1c2c
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-107
-
 Base.meta
 file
 
@@ -211,7 +177,44 @@ xiehanqing
 
 107
 
+Manager.meta
+file
+
+
+
+
+2014-01-02T02:30:27.000000Z
+30cad8cafb221fcf79ebc036a5ce1c2c
+2013-12-31T08:08:04.392786Z
+6
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+107
+
 Config
+dir
+
+Data
 dir
 
 NetHandler.meta
@@ -248,13 +251,10 @@ xiehanqing
 
 107
 
-Data
+Base
 dir
 
 Manager
-dir
-
-Base
 dir
 
 Editor.meta

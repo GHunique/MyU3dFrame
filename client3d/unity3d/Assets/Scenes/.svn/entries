@@ -1,14 +1,14 @@
 10
 
 dir
-11
+27
 svn://xiangshouyong@192.168.1.238/shqz/client3d/unity3d/Assets/Scenes
 svn://xiangshouyong@192.168.1.238/shqz/client3d
 
 
 
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T07:01:46.602885Z
+21
 xiehanqing
 
 
@@ -100,10 +100,10 @@ file
 
 
 
-2014-01-02T02:30:26.000000Z
-214f24453ddafb7c42f69c727b0a2457
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T07:18:55.000000Z
+917e1880d0093d9b11cbdd92a3978a6c
+2014-01-03T07:01:46.602885Z
+21
 xiehanqing
 has-props
 
@@ -126,7 +126,7 @@ has-props
 
 
 
-34968
+35416
 
 MainScene.unity.meta
 file

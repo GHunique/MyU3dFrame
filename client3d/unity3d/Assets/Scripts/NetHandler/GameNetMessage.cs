@@ -64,8 +64,8 @@ public class GameNetMessage
 	{
 		public char count;
 
-		[ MarshalAs( UnmanagedType.ByValTStr , SizeConst = 3 ) ]
-		public int[] n1 ;
+		[ MarshalAs( UnmanagedType.ByValTStr , SizeConst = 32 ) ]
+		public NetMsgHead[] n1 ;
 
 
 		public NetMsgLogin()

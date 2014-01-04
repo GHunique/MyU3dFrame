@@ -11,10 +11,11 @@ using System.Collections.Generic;
 /// If you want the cells to automatically set their scale based on the dimensions of their content, take a look at UITable.
 /// </summary>
 
-[ExecuteInEditMode]
 [AddComponentMenu("NGUI/Interaction/Grid")]
 public class UIGrid : UIWidgetContainer
 {
+	public delegate void OnReposition ();
+
 	public enum Arrangement
 	{
 		Horizontal,
@@ -48,10 +49,10 @@ public class UIGrid : UIWidgetContainer
 	public float cellHeight = 200f;
 
 	/// <summary>
-	/// Reposition the children on the next Update().
+	/// Whether the grid will smoothly animate its children into the correct place.
 	/// </summary>
 
-	public bool repositionNow = false;
+	public bool animateSmoothly = false;
 
 	/// <summary>
 	/// Whether the children will be sorted alphabetically prior to repositioning.
@@ -65,24 +66,46 @@ public class UIGrid : UIWidgetContainer
 
 	public bool hideInactive = true;
 
+	/// <summary>
+	/// Callback triggered when the grid repositions its contents.
+	/// </summary>
+
+	public OnReposition onReposition;
+
+	/// <summary>
+	/// Reposition the children on the next Update().
+	/// </summary>
+
+	public bool repositionNow { set { if (value) { mReposition = true; enabled = true; } } }
+
 	bool mStarted = false;
+	bool mReposition = false;
+	UIPanel mPanel;
+	UIScrollView mDrag;
+	bool mInitDone = false;
+
+	void Init ()
+	{
+		mInitDone = true;
+		mPanel = NGUITools.FindInParents<UIPanel>(gameObject);
+		mDrag = NGUITools.FindInParents<UIScrollView>(gameObject);
+	}
 
 	void Start ()
 	{
+		if (!mInitDone) Init();
 		mStarted = true;
-#if UNITY_EDITOR
-		if (Application.isPlaying)
-#endif
+		bool smooth = animateSmoothly;
+		animateSmoothly = false;
 		Reposition();
+		animateSmoothly = smooth;
+		enabled = false;
 	}
 
 	void Update ()
 	{
-		if (repositionNow)
-		{
-			repositionNow = false;
-			Reposition();
-		}
+		if (mReposition) Reposition();
+		enabled = false;
 	}
 
 	static public int SortByName (Transform a, Transform b) { return string.Compare(a.name, b.name); }
@@ -91,14 +114,18 @@ public class UIGrid : UIWidgetContainer
 	/// Recalculate the position of all elements within the grid, sorting them alphabetically if necessary.
 	/// </summary>
 
+	[ContextMenu("Execute")]
 	public void Reposition ()
 	{
-		if (!mStarted)
+		if (Application.isPlaying && !mStarted)
 		{
-			repositionNow = true;
+			mReposition = true;
 			return;
 		}
 
+		if (!mInitDone) Init();
+
+		mReposition = false;
 		Transform myTrans = transform;
 
 		int x = 0;
@@ -122,9 +149,15 @@ public class UIGrid : UIWidgetContainer
 				if (!NGUITools.GetActive(t.gameObject) && hideInactive) continue;
 
 				float depth = t.localPosition.z;
-				t.localPosition = (arrangement == Arrangement.Horizontal) ?
+				Vector3 pos = (arrangement == Arrangement.Horizontal) ?
 					new Vector3(cellWidth * x, -cellHeight * y, depth) :
 					new Vector3(cellWidth * y, -cellHeight * x, depth);
+
+				if (animateSmoothly && Application.isPlaying)
+				{
+					SpringPosition.Begin(t.gameObject, pos, 15f);
+				}
+				else t.localPosition = pos;
 
 				if (++x >= maxPerLine && maxPerLine > 0)
 				{
@@ -142,9 +175,15 @@ public class UIGrid : UIWidgetContainer
 				if (!NGUITools.GetActive(t.gameObject) && hideInactive) continue;
 
 				float depth = t.localPosition.z;
-				t.localPosition = (arrangement == Arrangement.Horizontal) ?
+				Vector3 pos = (arrangement == Arrangement.Horizontal) ?
 					new Vector3(cellWidth * x, -cellHeight * y, depth) :
 					new Vector3(cellWidth * y, -cellHeight * x, depth);
+
+				if (animateSmoothly && Application.isPlaying)
+				{
+					SpringPosition.Begin(t.gameObject, pos, 15f);
+				}
+				else t.localPosition = pos;
 
 				if (++x >= maxPerLine && maxPerLine > 0)
 				{
@@ -154,7 +193,17 @@ public class UIGrid : UIWidgetContainer
 			}
 		}
 
-		UIDraggablePanel drag = NGUITools.FindInParents<UIDraggablePanel>(gameObject);
-		if (drag != null) drag.UpdateScrollbars(true);
+		if (mDrag != null)
+		{
+			mDrag.UpdateScrollbars(true);
+			mDrag.RestrictWithinBounds(true);
+		}
+		else if (mPanel != null)
+		{
+			mPanel.ConstrainTargetToBounds(myTrans, true);
+		}
+
+		if (onReposition != null)
+			onReposition();
 	}
 }

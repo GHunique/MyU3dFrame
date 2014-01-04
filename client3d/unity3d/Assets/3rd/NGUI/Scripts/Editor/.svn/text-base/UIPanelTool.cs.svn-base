@@ -15,6 +15,12 @@ public class UIPanelTool : EditorWindow
 {
 	static public UIPanelTool instance;
 
+	enum Visibility
+	{
+		Visible,
+		Hidden,
+	}
+
 	class Entry
 	{
 		public UIPanel panel;
@@ -26,14 +32,9 @@ public class UIPanelTool : EditorWindow
 
 	Vector2 mScroll = Vector2.zero;
 
-	/// <summary>
-	/// Refresh the window on selection.
-	/// </summary>
-
-	void OnSelectionChange () { Repaint(); }
-
 	void OnEnable () { instance = this; }
 	void OnDisable () { instance = null; }
+	void OnSelectionChange () { Repaint(); }
 
 	/// <summary>
 	/// Collect a list of panels.
@@ -167,11 +168,11 @@ public class UIPanelTool : EditorWindow
 			// Sort the list alphabetically
 			entries.Sort(Compare);
 
+			mScroll = GUILayout.BeginScrollView(mScroll);
+
 			NGUIEditorTools.SetLabelWidth(80f);
 			bool showAll = DrawRow(null, null, allEnabled);
 			NGUIEditorTools.DrawSeparator();
-
-			mScroll = GUILayout.BeginScrollView(mScroll);
 
 			foreach (Entry ent in entries)
 			{
@@ -180,6 +181,7 @@ public class UIPanelTool : EditorWindow
 					selectedEntry = ent;
 				}
 			}
+
 			GUILayout.EndScrollView();
 
 			if (showAll)
@@ -215,7 +217,7 @@ public class UIPanelTool : EditorWindow
 			layer = LayerMask.LayerToName(ent.panel.gameObject.layer);
 			depth = ent.panel.depth.ToString();
 			widgetCount = ent.widgets.Count.ToString();
-			drawCalls = ent.panel.drawCallCount.ToString();
+			drawCalls = ent.panel.drawCalls.size.ToString();
 			clipping = (ent.panel.clipping != UIDrawCall.Clipping.None) ? "Yes" : "";
 		}
 		else

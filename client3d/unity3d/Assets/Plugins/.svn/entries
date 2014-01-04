@@ -1,14 +1,14 @@
 10
 
 dir
-11
+27
 svn://xiangshouyong@192.168.1.238/shqz/client3d/unity3d/Assets/Plugins
 svn://xiangshouyong@192.168.1.238/shqz/client3d
 
 
 
-2014-01-02T02:08:37.017813Z
-7
+2014-01-02T08:55:20.861507Z
+17
 xiehanqing
 
 
@@ -69,10 +69,10 @@ file
 
 
 
-2014-01-02T02:30:26.000000Z
-24189ad3d3b7456d983a11b22d09fc6c
-2014-01-02T02:08:37.017813Z
-7
+2014-01-03T02:36:36.000000Z
+6f06758b10721a60910803aea3519984
+2014-01-02T08:55:20.861507Z
+17
 xiehanqing
 has-props
 
@@ -95,7 +95,7 @@ has-props
 
 
 
-33280
+57856
 
 StoreKit
 dir

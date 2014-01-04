@@ -1,14 +1,14 @@
 10
 
 dir
-11
+27
 svn://xiangshouyong@192.168.1.238/shqz/client3d/unity3d/Assets/3rd/NGUI
 svn://xiangshouyong@192.168.1.238/shqz/client3d
 
 
 
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -26,16 +26,50 @@ xiehanqing
 
 b3fea33a-d9e8-46ca-91dd-a88eb285d0a9
 
+ReadMe - 3.0.8.txt
+file
+
+
+
+
+2014-01-03T09:47:26.000000Z
+38108b15209807c0a6e436479c365987
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+71677
+
 Resources.meta
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:26.000000Z
 a55f6b5d5b2e01022bf9693c87e8c35d
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -59,6 +93,108 @@ xiehanqing
 
 
 107
+
+Upgrade Tools (2.7.0 to 3.X).unitypackage.meta
+file
+
+
+
+
+2014-01-03T09:47:26.000000Z
+83bd93f83ace8c94df21fe4a9c526391
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+90
+
+Examples.meta
+file
+
+
+
+
+2014-01-03T09:47:26.000000Z
+28bcd232060fd9276f298ecf13e43a33
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+107
+
+ReadMe - 3.0.8.txt.meta
+file
+
+
+
+
+2014-01-03T09:47:26.000000Z
+e6831641edb12a48eb6e5a813b705c19
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+93
 
 Scripts
 dir
@@ -72,10 +208,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:26.000000Z
 2a98f534a6d80a55f6177b03127be144
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -99,4 +235,41 @@ xiehanqing
 
 
 107
+
+Upgrade Tools (2.7.0 to 3.X).unitypackage
+file
+
+
+
+
+2014-01-03T09:47:26.000000Z
+0fe963edf0f94d4ab8354c028adbc822
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4584
+
+Examples
+dir
 

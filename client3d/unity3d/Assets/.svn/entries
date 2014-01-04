@@ -1,14 +1,14 @@
 10
 
 dir
-11
+27
 svn://xiangshouyong@192.168.1.238/shqz/client3d/unity3d/Assets
 svn://xiangshouyong@192.168.1.238/shqz/client3d
 
 
 
-2014-01-02T02:23:57.528962Z
-10
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -63,16 +63,19 @@ xiehanqing
 Scenes
 dir
 
-Plugins
+Materials
 dir
 
-Materials
+Plugins
 dir
 
 Textures
 dir
 
 Editor
+dir
+
+Scripts
 dir
 
 UIAtlas.meta
@@ -109,10 +112,10 @@ xiehanqing
 
 107
 
-Scripts
+3rd
 dir
 
-3rd
+PrefabsStatic
 dir
 
 Config.meta
@@ -148,9 +151,6 @@ xiehanqing
 
 
 107
-
-PrefabsStatic
-dir
 
 Data.meta
 file

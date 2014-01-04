@@ -20,8 +20,8 @@ public class Global {
 	public static string nextScene = "MainCity";
 	public static string preScene = "";
 	public static readonly string LoadingSName = "LoadingScene";
-	public static readonly int ConnectPort = 10010;
-	public static readonly string ConnectIP = "192.168.2.10";
+	public static  int ConnectPort = 9999;
+	public static  string ConnectIP = "192.168.2.3";
 
 	public static void  NextScene(string sceneName)
 	{

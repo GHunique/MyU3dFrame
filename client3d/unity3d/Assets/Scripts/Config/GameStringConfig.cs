@@ -20,10 +20,7 @@ public class GameStringConfig : GameConfig< GameStringConfig >
 
 		// init here ,
 	}
-
-
-
-
+	
 	public Dictionary< string , string > dic = new Dictionary< string , string >();
 
 

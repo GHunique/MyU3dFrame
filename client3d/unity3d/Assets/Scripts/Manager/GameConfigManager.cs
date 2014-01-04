@@ -12,7 +12,6 @@ public class GameConfigManager : Singleton< GameConfigManager >
 		{
 			mInstance = this;
 			DontDestroyOnLoad( gameObject );
-
 		}
 		else
 		{
@@ -26,8 +25,6 @@ public class GameConfigManager : Singleton< GameConfigManager >
 		GameStringConfig.instance.initConfig();
 
 		transform.parent = null;
-
-
 	}
 
 
@@ -38,6 +35,7 @@ public class GameConfigManager : Singleton< GameConfigManager >
 
 	void Update()
 	{
+
 		if ( editorReload )
 		{
 			loadAll();

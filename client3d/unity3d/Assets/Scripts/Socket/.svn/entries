@@ -1,14 +1,14 @@
 10
 
 dir
-11
+27
 svn://xiangshouyong@192.168.1.238/shqz/client3d/unity3d/Assets/Scripts/Socket
 svn://xiangshouyong@192.168.1.238/shqz/client3d
 
 
 
-2013-12-31T08:08:04.392786Z
-6
+2014-01-02T08:55:40.851334Z
+18
 xiehanqing
 
 
@@ -59,6 +59,40 @@ xiehanqing
 
 
 2162
+
+GameChatSocketManager.cs
+file
+
+
+
+
+2014-01-03T02:36:37.000000Z
+f45e26bf2b58456d1c58192ceef4d0b9
+2014-01-02T08:55:40.851334Z
+18
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2227
 
 GameClientSocket.cs
 file
@@ -127,6 +161,40 @@ xiehanqing
 
 
 179
+
+GameChatSocketManager.cs.meta
+file
+
+
+
+
+2014-01-03T02:36:37.000000Z
+a281895277af3854d0bac39880110aed
+2014-01-02T08:55:40.851334Z
+18
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
 
 GameScoketIOBuffer.cs
 file

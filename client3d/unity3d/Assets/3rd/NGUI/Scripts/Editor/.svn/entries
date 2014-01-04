@@ -1,14 +1,14 @@
 10
 
 dir
-11
+27
 svn://xiangshouyong@192.168.1.238/shqz/client3d/unity3d/Assets/3rd/NGUI/Scripts/Editor
 svn://xiangshouyong@192.168.1.238/shqz/client3d
 
 
 
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -26,16 +26,16 @@ xiehanqing
 
 b3fea33a-d9e8-46ca-91dd-a88eb285d0a9
 
-TweenColorEditor.cs.meta
+NGUIHelp.cs
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-2d813b201c2cfafcd3889eebec1a32ef
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+369ba56ba4057565a4717178480585fb
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -58,7 +58,7 @@ xiehanqing
 
 
 
-178
+3743
 
 UIAtlasInspector.cs.meta
 file
@@ -66,10 +66,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 dd4292d53e99ff6e0512e1b4f830381a
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -93,74 +93,6 @@ xiehanqing
 
 
 178
-
-UIDrawCallInspector.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-f410d92015594359698414b53ce2ab62
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1070
-
-UITweenerEditor.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-d99d1dad958a5aa0d3b36677871abbaf
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1927
 
 UIButtonColorEditor.cs
 file
@@ -168,12 +100,11 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
-c051359a083c1d4c604ee23af0a45b45
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+c2d47750a418624a3f6a48e3b72c998c
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
 
 
 
@@ -194,7 +125,8 @@ has-props
 
 
 
-1716
+
+1879
 
 UIPanelTool.cs.meta
 file
@@ -202,78 +134,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 408c4fac8d3f340dd5b677503ad6b47c
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-TweenVolumeEditor.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-5595cf842d5e84b8964eafb78c77b24f
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-794
-
-NGUIContextMenu.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-2f6986fdc2703ad9508dc62327457efa
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -304,12 +168,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 9bea64600ff175ed0f0b3b4eaadb4684
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -332,84 +196,16 @@ has-props
 
 324
 
-TweenHeightEditor.cs
+NGUIContextMenu.cs.meta
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-3509e013264b90148bfca281aedb3794
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-925
-
-TweenOrthoSizeEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-723a0089995c342f687998468fb49f85
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-TweenScaleEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-0a09dcc24b936e854d9387dff8754cc9
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+2f6986fdc2703ad9508dc62327457efa
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -440,44 +236,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 46d1fd823eb1ec06b4b1fd0faf7efbfb
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UIInputEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-a4c8f1de1f5791b1d1fc8069d2cf57c2
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -508,78 +270,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
-802a8452e4c82444100c08d038750eb2
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-44058
-
-UIPanelTool.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-2ea8d5a4a3caa482168a6964b1a77af0
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6883
-
-UIToggleInspector.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-8ac8948b517013bed81ac8d796811055
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+d981b98a07aa82b440eee4f1d99a7dcd
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -602,7 +296,7 @@ xiehanqing
 
 
 
-178
+50685
 
 NGUIJson.cs
 file
@@ -610,12 +304,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 c4ea1d448150b59a734795be06b9ecfa
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -644,10 +338,78 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 4c52403a72736213abedadf28c06be80
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIScrollViewEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+61786467204343c9386e112d7c21946d
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2523
+
+UIDrawCallViewer.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+aa053e95ea924845bd9e1ecdc8821d09
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -678,78 +440,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 d164fbca2b44abb7316da93570f5c01f
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UILabelInspector.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-cf46d1d20db659df4c71113746c5028a
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5001
-
-NGUISettings.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-b415459094e0a74a4a51957f298302ad
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -780,12 +474,11 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
-fc7adb2c6ed4e9e5d7a287bb083fdddb
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+d31d33c6cfae25e35ce65488a81b9aac
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
 
 
 
@@ -806,7 +499,8 @@ has-props
 
 
 
-26946
+
+31418
 
 TweenRotationEditor.cs
 file
@@ -814,12 +508,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 0dd78e95de5e8c508013fdb11f876bc7
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -848,12 +542,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 be092aac3c5b66e10268152ba49b41a6
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -882,44 +576,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 729c10984b3e9da1b49c5a17a64c0f0b
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-NGUIMenu.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-dc159ab728fd2565ca32e0e200c0368c
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -950,44 +610,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
-ee4fd2cf0df20c56882a776cb1a7b8c1
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2207
-
-TweenWidthEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-854daf6dc424d0d5a4c52fff9d16cd26
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+67d29a1d0cc7167ff31e1b117970647e
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -1010,7 +636,7 @@ xiehanqing
 
 
 
-178
+2206
 
 UIAnchorEditor.cs
 file
@@ -1018,12 +644,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 f7a6ace6b4e8a3111714b8759d72e856
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -1046,50 +672,16 @@ has-props
 
 322
 
-UIGridEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-c7cb7517570aaea372a0329b42d38a1a
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
 NGUIJson.cs.meta
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 e547535e69c97ab4b956b0c6ef769010
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -1113,74 +705,6 @@ xiehanqing
 
 
 178
-
-UICameraEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-0ed898ceaf10312b832810d4574d80a4
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UIAtlasMaker.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-4639cc9e3300d6e139a15377644ca202
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26566
 
 ActiveAnimationEditor.cs
 file
@@ -1188,12 +712,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 1ea415470b8fc3519975fa9a301b8802
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -1216,50 +740,50 @@ has-props
 
 532
 
+UIAtlasMaker.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+57b674b054c5cec2440800cc0a99faca
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28915
+
 NGUISettings.cs
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-f9c8ae24978cb60ce51e610c0634497e
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11278
-
-TweenAlphaEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-ae8161530a7c7a699d65dc3aadf2194a
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+534fb93a5e19326ddd091f3de18a64d7
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -1282,426 +806,18 @@ xiehanqing
 
 
 
-178
+15000
 
-UIFontMaker.cs
+UI2DSpriteEditor.cs.meta
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-87c1b75a4bd08b59f7aee13853dfba84
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8584
-
-UIPanelInspector.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-0d8554e59c8076bfd203595c713b883d
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9029
-
-NGUITransformInspector.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-aec55e1748a65deb869ac937ca4ee939
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9178
-
-NGUIMenu.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-2e9aafc4de84af04e96cc01d4e8b9301
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9620
-
-NGUISelectionTools.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-7d6cd4bd9b0e91dbee8cbbcd23df97a8
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6039
-
-UILabelInspector.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-0cc2d1f119374409c1c5121a81e765d0
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UISliderInspector.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-24ce37d0df48ea82dfdfd6fa789a00ab
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UIDraggablePanelEditor.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-07356a5f767ac4cca43eae6c97d45318
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-313
-
-UIWidgetInspector.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-57bd078251b3d4e8f8f54ad4f020b95a
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-TweenAlphaEditor.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-7a77e02f9064cc1ce8c42ae049cafb0e
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-790
-
-TweenPositionEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-9b4798f8fff139cd33362009bc96bcba
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-TweenVolumeEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-9830c43666a8ce9b5a4eff6c72b33011
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UIStretchEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-e300b278ae1974fe15086718a4ae20de
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+41a5c4d2d987a96602aa730e5cf3abc3
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -1732,12 +848,11 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
-b6d3404604d5ea5f6d0f3d63b4e60565
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+1bd28128e836b1222d5f2cce2a7ad940
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
 
 
 
@@ -1758,52 +873,19 @@ has-props
 
 
 
-2134
+
+1940
 
-UISliderInspector.cs
+UIStretchEditor.cs.meta
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-ce3b3a541eae8a9a01ce7a598b7aa011
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3219
-
-UIFontMaker.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-f7f909f1320613eebba6663dc61ce118
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+e300b278ae1974fe15086718a4ae20de
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -1828,84 +910,16 @@ xiehanqing
 
 178
 
-UIPanelInspector.cs.meta
+UIScrollBarEditor.cs.meta
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-26670158ff099c9db9095e7f610e5e07
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UICreateNewUIWizard.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-ef64606a48288bdee18a6ad691d9fd5c
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UIFontInspector.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-ac058ab0fa4083462c022c7b90bf203f
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+48749baa5675a24a8082da8a695f09e9
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -1936,44 +950,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 98eb9456a8af71e7e9244e3e7aa6fb29
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UISpriteInspector.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-f2159cd25a7e30380d10c17af8a34238
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -2004,10 +984,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 983d9feb6218e775a3a697cf19ea1a45
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -2031,40 +1011,6 @@ xiehanqing
 
 
 178
-
-UICameraTool.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-b2930a67b120d2de41430595f7df27f6
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5767
 
 UIPopupListInspector.cs
 file
@@ -2072,12 +1018,11 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
-150953a60509d5e302014d0d194da437
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+f79e9485687a36ef81461a2817a38f7b
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
 
 
 
@@ -2098,41 +1043,8 @@ has-props
 
 
 
-6544
-
-TweenTransformEditor.cs
-file
 
-
-
-
-2014-01-02T02:30:28.000000Z
-362af667be6295cb87bfdc3e4acf641e
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-318
+6732
 
 UITextureInspector.cs
 file
@@ -2140,78 +1052,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
-c34ccfc9b4222f226682006745be598d
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2158
-
-UICreateWidgetWizard.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-c62075022dd925c6322a796bbcf47cd8
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-25932
-
-ComponentSelector.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-9e64f335f364d87e3f6c8521ccd643ae
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+a68fd6bfb441d1bab7311cfa491ea690
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -2234,177 +1078,7 @@ xiehanqing
 
 
 
-178
-
-UIRootEditor.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-0f22f2568efad9a573648ee21f1f1505
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-318
-
-UIAtlasInspector.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-7fe07066bb9798212ad209ac7a52f191
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8176
-
-UIGridEditor.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-c245d945f92068cc9a8f44a650064d81
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-390
-
-UIFontInspector.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-324b6a1c45bfe93bcd905cd175de2ae8
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12402
-
-UISpriteAnimationInspector.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-5d37d02fc248c31d823b9ce8679c970a
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1428
+1842
 
 UISpriteInspector.cs
 file
@@ -2412,12 +1086,11 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
-955d0dc12037f306a4840e2378bcd746
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+059db6fb2d844e87e343dff824359c52
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
 
 
 
@@ -2438,52 +1111,19 @@ has-props
 
 
 
-3341
+
+4557
 
-UIWidgetContainerEditor.cs
+UIFontInspector.cs
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-78d3c25ceff6671de948453aa8d52fd6
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7129
-
-SpriteSelector.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-7dae5ac3a8118786b3df3d8ac8ed2450
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+463a17756c39a21f90d63f9c45015c58
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -2506,7 +1146,7 @@ xiehanqing
 
 
 
-178
+11768
 
 UITableEditor.cs
 file
@@ -2514,12 +1154,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 f829801500f0abeed3edfb696d82c6e9
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -2542,16 +1182,50 @@ has-props
 
 392
 
+SpriteSelector.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+7dae5ac3a8118786b3df3d8ac8ed2450
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
 TweenRotationEditor.cs.meta
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 c2c0fc01f0a2b81d961f1691094f39d9
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -2582,12 +1256,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 927372a42ca376f5966df23cfafb1c1f
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -2610,84 +1284,16 @@ has-props
 
 888
 
-UIPlayTweenEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-ee8b780ea5ccc5813524478bd9a76d87
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
 ComponentSelector.cs
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-f80eb4b8a21e7aeae964e87e92fc021c
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4292
-
-UIDrawCallInspector.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-6f234ade15deb0fec0ff29bf855c2f3a
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+45643bf28db5914531acfab8f4474c0d
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -2710,41 +1316,7 @@ xiehanqing
 
 
 
-178
-
-UITweenerEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-cc1a9fbedc73e9ac64340e4e889d2074
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
+5975
 
 SpriteSelector.cs
 file
@@ -2752,12 +1324,11 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
-ceaac90c1fef5d843b37c81f6e94e073
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+3df15defa5027946103214c354f3cffc
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
 
 
 
@@ -2778,7 +1349,8 @@ has-props
 
 
 
-7004
+
+7557
 
 TweenHeightEditor.cs.meta
 file
@@ -2786,112 +1358,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 f4a750b5097c8e86f46b146f035610ba
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-EventDelegateEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-de83d8684b7881d09171ab14679f59fe
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UIScrollBarInspector.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-dd5f2c01a45e8864cb3f29721a4feb4c
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1924
-
-UICameraTool.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-d15bfab447779d8b848d30f9e12d7759
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -2922,10 +1392,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 b3652757716b4383d70306b36d534ad5
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -2956,10 +1426,44 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 2d7929830fb9afbc0c670a735a188675
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UISliderEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+24ce37d0df48ea82dfdfd6fa789a00ab
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -2990,10 +1494,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 4094aebb1f62f80d9bf3e6296df0d555
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -3024,12 +1528,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 fe2eddbf78c1550d231a75e37a58de91
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -3052,118 +1556,16 @@ has-props
 
 802
 
-NGUISelectionTools.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-e9726fcb50cf2c8b59c2cea819bf0629
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-NGUIEditorTools.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-da7b4b2413c684c28a9a1ca93ef7135f
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UIButtonEditor.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-cc77b7d418944e0512e02265b255a6e0
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1879
-
 UITableEditor.cs.meta
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 d826a5ded5e4f9475b464156624f2921
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -3188,16 +1590,16 @@ xiehanqing
 
 178
 
-UIDraggablePanelEditor.cs.meta
+UIScrollViewEditor.cs.meta
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 5f0820adcdce1be0bc311359b4727a17
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -3228,12 +1630,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 dc8c0b83847822852146bf02ffde51b0
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -3256,18 +1658,17 @@ has-props
 
 5894
 
-UITexturePacker.cs
+NGUISnap.cs
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-55d44ea7e5e45b3889ddfc022cb4a30b
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+e5097389ef6b1c33e67d94d257b1a5e5
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
 
 
 
@@ -3288,52 +1689,19 @@ has-props
 
 
 
-19250
+
+3965
 
-TweenColorEditor.cs
+UISliderEditor.cs
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-722d354bfee502c8d435d4469aaa057a
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-782
-
-UIImageButtonInspector.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-481db1fdfc124d04fbc30f4731346bd6
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+041ede9a7ab1f8b02a5e1f27b71092e0
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -3356,7 +1724,7 @@ xiehanqing
 
 
 
-178
+335
 
 TweenWidthEditor.cs
 file
@@ -3364,12 +1732,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 51aedfd40844750ac6751630934d6457
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -3392,18 +1760,17 @@ has-props
 
 921
 
-UICreateNewUIWizard.cs
+UIProgressBarEditor.cs
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-659918ca221009d7ee39175e64ded306
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+29dc2d28b56da1f471b09ba6f1ac6d2a
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
 
 
 
@@ -3424,86 +1791,19 @@ has-props
 
 
 
-4654
+
+1981
 
-NGUIContextMenu.cs
+NGUIHelp.cs.meta
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-e5a03fd47f1a45f30bcb1b50d7c30d94
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1692
-
-UICameraEditor.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-a95ce165c8aeb1ecb02e72dcc9f117e4
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5612
-
-UIScrollBarInspector.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-51bc2d86293222a28500b3c2b056e27d
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+dcca31d632d275e8a5110b2b88c32c96
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -3527,74 +1827,6 @@ xiehanqing
 
 
 178
-
-UIPlayAnimationEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-9b64543b18c10dbc9269fae52c805cd2
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-TweenOrthoSizeEditor.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-98855b7b15dafc11b50a54f4e0ac5860
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-851
 
 UIImageButtonInspector.cs
 file
@@ -3602,12 +1834,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 5123817f29a2d0c5490e2fd03b53defd
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -3630,86 +1862,17 @@ has-props
 
 2632
 
-UIButtonColorEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-705aaa8c8424fca70de5e0a7b8a4761c
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-TweenFOVEditor.cs
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-89b19ef257aa44b96f04bff462687fe2
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-786
-
 UIInputEditor.cs
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-e0f64414b3dd25e97525b6e0dab34e8c
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+646cb96bf0dcd5a79fb9e2f544d664b7
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
 
 
 
@@ -3730,7 +1893,8 @@ has-props
 
 
 
-2729
+
+2916
 
 UIButtonEditor.cs.meta
 file
@@ -3738,78 +1902,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 689d6ce3da3e862697a14b7f8c66d225
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-UIAtlasMaker.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-a4157145bf317857b70f0defd9a1e96e
-2013-12-31T08:08:04.392786Z
-6
-xiehanqing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-178
-
-ActiveAnimationEditor.cs.meta
-file
-
-
-
-
-2014-01-02T02:30:28.000000Z
-9c66f899ccdb6e1a650c0e2730af7d3a
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -3840,12 +1936,12 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 4d439841094ea7ab902afe010c65452f
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
-has-props
+
 
 
 
@@ -3868,16 +1964,16 @@ has-props
 
 4436
 
-UITexturePacker.cs.meta
+NGUISnap.cs.meta
 file
 
 
 
 
-2014-01-02T02:30:28.000000Z
-1fd8f47425cc76e8a9aadf9cffae94b9
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:47:23.000000Z
+0bf591d5f3a443677e97bc4f30e53c92
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -3908,10 +2004,2458 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 db2b967a4d8d98297fe4c34eb5369c86
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+TweenColorEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+2d813b201c2cfafcd3889eebec1a32ef
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UITweenerEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+d99d1dad958a5aa0d3b36677871abbaf
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1927
+
+UIDrawCallInspector.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+78f69550718b0076f194913afb83da77
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1074
+
+TweenVolumeEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+5595cf842d5e84b8964eafb78c77b24f
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+794
+
+TweenHeightEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+3509e013264b90148bfca281aedb3794
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+925
+
+TweenOrthoSizeEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+723a0089995c342f687998468fb49f85
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+TweenScaleEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+0a09dcc24b936e854d9387dff8754cc9
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIInputEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+a4c8f1de1f5791b1d1fc8069d2cf57c2
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIToggleInspector.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+8ac8948b517013bed81ac8d796811055
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIPanelTool.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+1aaed4f29b1c35b523a5eec2332d89d4
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6859
+
+NGUIHandles.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+a3e9b2522f48cccf0090e7528c17d97a
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5416
+
+UILabelInspector.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+4416edb644e0d8100298042d19f67edf
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6514
+
+NGUISettings.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+b415459094e0a74a4a51957f298302ad
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIDragObjectEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+3861f41b001b51ce3b05a5bb19354d62
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1666
+
+NGUIMenu.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+dc159ab728fd2565ca32e0e200c0368c
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+TweenWidthEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+854daf6dc424d0d5a4c52fff9d16cd26
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIGridEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+c7cb7517570aaea372a0329b42d38a1a
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UICameraEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+0ed898ceaf10312b832810d4574d80a4
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIPanelInspector.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+980c719e135092f95498c4b51d0426e8
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21642
+
+UIFontMaker.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+68882e0a3d1de8b8f971a1c8eb5afd7c
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8731
+
+TweenAlphaEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+ae8161530a7c7a699d65dc3aadf2194a
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+NGUITransformInspector.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+aec55e1748a65deb869ac937ca4ee939
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9178
+
+NGUIMenu.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+17169991b2f5fc64a6cee6a41d41c5e1
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17408
+
+UIScrollBarEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+482011e2a8c6ebdc6fa8007be8320f53
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+878
+
+UILabelInspector.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+0cc2d1f119374409c1c5121a81e765d0
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+NGUISelectionTools.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+11aa89b313d3c4367985e9dbb9ed6826
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6044
+
+UIWidgetInspector.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+57bd078251b3d4e8f8f54ad4f020b95a
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+TweenAlphaEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+7a77e02f9064cc1ce8c42ae049cafb0e
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+790
+
+TweenPositionEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+9b4798f8fff139cd33362009bc96bcba
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+TweenVolumeEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+9830c43666a8ce9b5a4eff6c72b33011
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIPanelInspector.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+26670158ff099c9db9095e7f610e5e07
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIFontMaker.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+f7f909f1320613eebba6663dc61ce118
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UICreateNewUIWizard.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+ef64606a48288bdee18a6ad691d9fd5c
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UISpriteInspector.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+f2159cd25a7e30380d10c17af8a34238
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIFontInspector.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+ac058ab0fa4083462c022c7b90bf203f
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIProgressBarEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+51bc2d86293222a28500b3c2b056e27d
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UICameraTool.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+b2930a67b120d2de41430595f7df27f6
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5767
+
+TweenTransformEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+362af667be6295cb87bfdc3e4acf641e
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+318
+
+UICreateWidgetWizard.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+bd78f3d5d385e6c00b307b41cbbae4c1
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25371
+
+NGUIHandles.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+477fffa303d4ad6ca3003080bcc5b230
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIRectEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+b926a6e57696cb9400087fbcb5f4a84d
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIRootEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+464c498f43d6cd8a6b7da972d76cfc96
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+967
+
+ComponentSelector.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+9e64f335f364d87e3f6c8521ccd643ae
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIAtlasInspector.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+40244b45aa404edb6281a93e012eca45
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8849
+
+UIGridEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+c245d945f92068cc9a8f44a650064d81
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+390
+
+UISpriteAnimationInspector.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+5d37d02fc248c31d823b9ce8679c970a
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1428
+
+UIWidgetContainerEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+8112665b5f2e6b8af5f4e07ee88ffb9b
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8210
+
+UIDragObjectEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+c22b31123a4832aa6879a9602de6bd2f
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIPlayTweenEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+ee8b780ea5ccc5813524478bd9a76d87
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UITweenerEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+cc1a9fbedc73e9ac64340e4e889d2074
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIDrawCallInspector.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+6f234ade15deb0fec0ff29bf855c2f3a
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+EventDelegateEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+de83d8684b7881d09171ab14679f59fe
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIDrawCallViewer.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+042c7c02c5d69883786878b1ab43dc15
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5383
+
+UICameraTool.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+d15bfab447779d8b848d30f9e12d7759
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+NGUISelectionTools.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+e9726fcb50cf2c8b59c2cea819bf0629
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+NGUIEditorTools.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+da7b4b2413c684c28a9a1ca93ef7135f
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIButtonEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+37c4f41705198ed71d24545cd541733e
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2105
+
+UITexturePacker.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+5d3701161bc975d6df2fd3fdea448e55
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19318
+
+UIImageButtonInspector.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+481db1fdfc124d04fbc30f4731346bd6
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+TweenColorEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+722d354bfee502c8d435d4469aaa057a
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+782
+
+UICreateNewUIWizard.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+dbbcf17821cd5e7f620cf6d2a36b7a72
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2057
+
+NGUIContextMenu.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+0b546f2eac5a8adc7b0f01ac92611042
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18085
+
+UICameraEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+a78e6f2fb6a3d0cbdc80e4890c12c44f
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5531
+
+UIPlayAnimationEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+9b64543b18c10dbc9269fae52c805cd2
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+TweenOrthoSizeEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+98855b7b15dafc11b50a54f4e0ac5860
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+851
+
+UI2DSpriteEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+bfc9500f674912b1b70d77b28b0578a0
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1650
+
+UIRectEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+be421da60a4c3a3071b50091a97f4c86
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17488
+
+UIButtonColorEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+705aaa8c8424fca70de5e0a7b8a4761c
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+TweenFOVEditor.cs
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+89b19ef257aa44b96f04bff462687fe2
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+786
+
+ActiveAnimationEditor.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+9c66f899ccdb6e1a650c0e2730af7d3a
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UIAtlasMaker.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+a4157145bf317857b70f0defd9a1e96e
+2014-01-03T09:36:24.611301Z
+27
+xiehanqing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+178
+
+UITexturePacker.cs.meta
+file
+
+
+
+
+2014-01-03T09:47:23.000000Z
+1fd8f47425cc76e8a9aadf9cffae94b9
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 
@@ -3942,10 +4486,10 @@ file
 
 
 
-2014-01-02T02:30:28.000000Z
+2014-01-03T09:47:23.000000Z
 7a59b5bd856af82d3b57d2ea04f8f15c
-2013-12-31T08:08:04.392786Z
-6
+2014-01-03T09:36:24.611301Z
+27
 xiehanqing
 
 

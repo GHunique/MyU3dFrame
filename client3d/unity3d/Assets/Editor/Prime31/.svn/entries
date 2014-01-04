@@ -1,14 +1,14 @@
 10
 
 dir
-11
+27
 svn://xiangshouyong@192.168.1.238/shqz/client3d/unity3d/Assets/Editor/Prime31
 svn://xiangshouyong@192.168.1.238/shqz/client3d
 
 
 
-2014-01-02T02:23:57.528962Z
-10
+2014-01-02T08:55:20.861507Z
+17
 xiehanqing
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2014-01-02T02:30:27.000000Z
-6d185a04906318c800145bfa24f22d67
-2014-01-02T02:23:57.528962Z
-10
+2014-01-03T02:36:36.000000Z
+cc2c20accb25b4924ef64562706ddb27
+2014-01-02T08:55:20.861507Z
+17
 xiehanqing
 has-props
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-24014
+24621
 
 Prime31MenuItem.dll.meta
 file
@@ -134,10 +134,10 @@ file
 
 
 
-2014-01-02T02:30:27.000000Z
-f5af4cd3573d3fcd644634d457352ecd
-2014-01-02T02:08:37.017813Z
-7
+2014-01-03T02:36:36.000000Z
+f0db162102942e45eb9e640740621874
+2014-01-02T08:55:20.861507Z
+17
 xiehanqing
 has-props
 
@@ -160,5 +160,5 @@ has-props
 
 
 
-59392
+77312
 
