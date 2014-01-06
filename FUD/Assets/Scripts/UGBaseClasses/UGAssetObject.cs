@@ -3,6 +3,8 @@ using System.Collections;
 
 public class UGAssetObject : MonoBehaviour{
 
+	public delegate int AssetsLoadedDelegate();
+
 	/**
 	 *		保存子类信息
 	 */

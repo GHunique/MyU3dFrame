@@ -175,9 +175,13 @@
      <Compile Include="Assets\Scripts\CreatePlayerb.cs" />
      <Compile Include="Assets\Scripts\NetWork\Client.cs" />
      <Compile Include="Assets\Scripts\NetWork\Server.cs" />
+     <Compile Include="Assets\Scripts\NetWork\SocketManager.cs" />
      <Compile Include="Assets\Scripts\PublicFunctions.cs" />
      <Compile Include="Assets\Scripts\TestCShap.cs" />
      <Compile Include="Assets\Scripts\TestCShap2.cs" />
+     <Compile Include="Assets\Scripts\TestScriptes\xsy.cs" />
+     <Compile Include="Assets\Scripts\TestScriptes\xsyInterface.cs" />
+     <Compile Include="Assets\Scripts\TestScriptes\xsyParent.cs" />
      <Compile Include="Assets\Scripts\UGBaseClasses\Agent.cs" />
      <Compile Include="Assets\Scripts\UGBaseClasses\AssetBundleManager.cs" />
      <Compile Include="Assets\Scripts\UGBaseClasses\CameraFPlayer.cs" />

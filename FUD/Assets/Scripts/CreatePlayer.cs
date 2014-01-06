@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CreatePlayer : UGAssetObject {
+public class CreatePlayer : UGAssetObject 
+{
 
 	bool flag = false;
 
