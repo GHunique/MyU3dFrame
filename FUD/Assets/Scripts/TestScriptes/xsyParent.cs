@@ -3,33 +3,44 @@ using System.Collections;
 using System;
 using System.Runtime.InteropServices;
 
-public delegate void AssetsLoadedDelegate();
-public delegate void TestDelegate();
 
-public class xsyParent : MonoBehaviour {
+public class xsyParent  : MonoBehaviour
+{
 
-	AssetsLoadedDelegate _assetsLoaded;
-	TestDelegate _tDelegate;
+	public event EventHandler _delegate;
 
-	// Use this for initialization
-	protected void setDelegate(/*object target,IntPtr pMethod*/) 
+	public ArrayList _arrList;
+
+	protected void AssetsLoadedp()
 	{
-//		_assetsLoaded = new  AssetsLoadedDelegate(target,pMethod);
-		Invoke("InvokeLoaded",1.2f);
-		Debug.Log(" xsyParent ;");
+		if(_delegate != null) _delegate(null,null);
+	}
 
-		_assetsLoaded = new  AssetsLoadedDelegate(this.whatEver);
+	public xsyParent()
+	{
+		_arrList = new ArrayList();
+		OnStart();
+	}
+
+	void OnStart()
+	{
+
+//		Invoke("InvokeLoaded",1f);
+
+		if(!_arrList.Contains(this))
+		{
+		_arrList.Add(this);
+		Debug.Log(" OnStart !  contain num :  " + _arrList.Count);
+		}
+
+		_arrList.Contains(this);
+		_arrList.Add(this);
+		Debug.Log(" OnStart !  contain num :  " + _arrList.Count);
 	}
 
 	void InvokeLoaded()
 	{
-		_assetsLoaded();
-		print(" InvokeLoaded after 1 second(s) ");
-	}
-
-	void whatEver()
-	{
-		Marshal.GetDelegateForFunctionPointer 
-		print(" delegate hao nangao! ! :" + Marshal.GetFunctionPointerForDelegate(_assetsLoaded));
+//		AssetsLoadedp();
+		Debug.Log(" InvokeLoaded after 1 second(s) ");
 	}
 }

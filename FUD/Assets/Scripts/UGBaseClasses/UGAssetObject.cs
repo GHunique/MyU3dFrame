@@ -1,30 +1,41 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Threading;
 
-public class UGAssetObject : MonoBehaviour{
+public class UGAssetObject : MonoBehaviour
+{
 
-	public delegate int AssetsLoadedDelegate();
+	protected UGAssetObject()
+	{
+		this.Init();
+	}
 
 	/**
-	 *		保存子类信息
+	 * 	  继承本类的类必须要实现
+	 *   必须实现接口 AssetsEventsInterFace
+	 * 	 事件 			    AssetsLoadedEventHandle
 	 */
+
+	protected event AssetsLoadedEventHandle _loadSucDelegate; 
+	protected event AssetsLoadedEventHandle _loadFaicDelegate; 
+
+	void AssetsLoadedSuccess()
+	{
+		if(_loadSucDelegate != null) _loadSucDelegate();
+	}
+
+	void AssetsLoadedFailed()
+	{
+		if(_loadFaicDelegate != null) _loadFaicDelegate();
+	}
+
+	//Resource
 	private GameObject _object_self = null;
 	private Object _assetBoj = null;
+
+	//AssetsBundle
 	protected AssetBundle _assetBundle = null;
-
-	public GameObject _target = null;
-	public string _callBackFName = "";
 	
-	protected void AssetsLoaded()
-	{
-		print (" Parent AssetsLoaded ");
-	}
-
-	protected void AssetsLoadFailed()
-	{
-		Debug.LogWarning(" parent AssetsLoadFailed !!! ");
-	}
-
 	public GameObject LoadResource(string path)
 	{
 		if(_object_self == null)
@@ -42,13 +53,10 @@ public class UGAssetObject : MonoBehaviour{
 		Resources.UnloadAsset(_assetBoj);
 	}
 
-	public AssetBundle LoadAsset(string path,GameObject target,string callbackFName)
+	public AssetBundle LoadAsset(string path)
 	{
 		if(_assetBundle == null)
 		{
-			_target = target;
-			_callBackFName = callbackFName;
-
 			RuntimePlatform run_platform = Application.platform;
 
 			//不同平台下StreamingAssets的路径是不同的，这里需要注意一下。
@@ -91,20 +99,26 @@ public class UGAssetObject : MonoBehaviour{
 
 		if(www.error != null) 
 		{
-			this.AssetsLoadFailed();
+			this.AssetsLoadedFailed();
 		}else
 		{
 			_assetBundle = www.assetBundle;
-			this.AssetsLoaded();
-			_target.SendMessage(_callBackFName,gameObject,SendMessageOptions.DontRequireReceiver);
+			this.AssetsLoadedSuccess();
 		}
-
 	}
 
-	public void UnloadAsset(bool removeBunld)
-
+	public void UnloadAsset(bool destroyThis)
 	{
 		print("UGAssetObject [UnloadAsset] : " + _assetBundle);
-		_assetBundle.Unload(removeBunld);
+
+		if(_assetBundle != null){
+			_assetBundle.Unload(destroyThis);
+			_assetBundle = null;
+		}
+	}
+
+	public void Init()
+	{
+		UGAssetObjectManager.instance().AddObject(this);
 	}
 }

@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Threading;
 
-public class CreatePlayer : UGAssetObject 
+public class CreatePlayer : UGAssetObject ,AssetsEventsInterFace
 {
 
 	bool flag = false;
@@ -9,17 +10,21 @@ public class CreatePlayer : UGAssetObject
 	// Use this for initialization
 	void Start () 
 	{
+		_loadSucDelegate += new AssetsLoadedEventHandle(this.AssetsLoaded);
+		_loadFaicDelegate += new AssetsLoadedEventHandle(this.AssetsLoadFaild);
+//		this.Init();
+
 		Global.Version = 0;
-		LoadAsset("PlayerAsset",gameObject,"AssetsLoaded");
+		LoadAsset("PlayerAsset");
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-//		print(" CreatPlayer update");
+
 	}
 
-	public void ReleaseAsset()
+	public void ReleaseMyAssetBundle()
 	{
 		if(flag) UnloadResource(true);
 			else UnloadAsset(false);
@@ -30,7 +35,6 @@ public class CreatePlayer : UGAssetObject
 	{
 		Destroy(GameObject.FindGameObjectWithTag("Player"));
 		Resources.UnloadUnusedAssets();
-
 	}
 
 	void OnDestroy()
@@ -38,7 +42,7 @@ public class CreatePlayer : UGAssetObject
 		print(" CreatePlayer Script Destroied ");
 	}
 
-	void AssetsLoaded()
+	public void AssetsLoaded()
 	{
 		GameObject player;
 
@@ -60,13 +64,18 @@ public class CreatePlayer : UGAssetObject
 				{
 					player = Instantiate(obj) as GameObject;
 					player.transform.position = new Vector3(30f,0f,45f);
-					UnloadAsset(false);
+//					UnloadAsset(false);
 				}
 
 			}else
 			{
-				print("LoadAsset Failed !!");
+				Debug.LogError("LoadAsset Failed !!");
 			}
 		}
+	}
+
+	public void AssetsLoadFaild()
+	{
+
 	}
 }

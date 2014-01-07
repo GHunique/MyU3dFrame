@@ -177,8 +177,6 @@
      <Compile Include="Assets\Scripts\NetWork\Server.cs" />
      <Compile Include="Assets\Scripts\NetWork\SocketManager.cs" />
      <Compile Include="Assets\Scripts\PublicFunctions.cs" />
-     <Compile Include="Assets\Scripts\TestCShap.cs" />
-     <Compile Include="Assets\Scripts\TestCShap2.cs" />
      <Compile Include="Assets\Scripts\TestScriptes\xsy.cs" />
      <Compile Include="Assets\Scripts\TestScriptes\xsyInterface.cs" />
      <Compile Include="Assets\Scripts\TestScriptes\xsyParent.cs" />
@@ -189,7 +187,10 @@
      <Compile Include="Assets\Scripts\UGBaseClasses\Global.cs" />
      <Compile Include="Assets\Scripts\UGBaseClasses\MapCamera.cs" />
      <Compile Include="Assets\Scripts\UGBaseClasses\UGAssetObject.cs" />
+     <Compile Include="Assets\Scripts\UGBaseClasses\UGAssetObjectManager.cs" />
      <Compile Include="Assets\Scripts\UGBaseClasses\UGAssetsManager.cs" />
+     <Compile Include="Assets\Scripts\UGBaseClasses\UGEventHandle.cs" />
+     <Compile Include="Assets\Scripts\UGBaseClasses\UGInterface.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />

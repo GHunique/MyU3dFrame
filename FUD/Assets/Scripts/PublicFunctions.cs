@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PublicFunctions : MonoBehaviour {
+public class PublicFunctions : MonoBehaviour 
+{
 
 	// Use this for initialization
 	void Start () 
@@ -19,5 +20,11 @@ public class PublicFunctions : MonoBehaviour {
 		tip.text = tip.text +  "\nReserved Memory :" + Profiler.GetTotalReservedMemory()/1024/8;
 
 		tip.text = " Players Num : " + Network.connections.Length;
+	}
+
+	public void ManagerReleaseAssets()
+	{
+		Debug.Log("ManagerReleaseAssets Button !! ");
+		UGAssetObjectManager.instance().ReloadAllAssets(true);
 	}
 }

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class xsy : xsyParent ,xsyInterface
 {
@@ -8,10 +9,15 @@ public class xsy : xsyParent ,xsyInterface
 
 	void Start () 
 	{
-		this.setDelegate();
+		_delegate += new EventHandler(this.AssetsLoaded);
 		Debug.Log(" xsy :");
 	}
-	
+
+	void test()
+	{
+		this.AssetsLoadedp();
+	}
+
 	// Update is called once per frame
 	void Update () 
 	{
@@ -23,7 +29,7 @@ public class xsy : xsyParent ,xsyInterface
 		Debug.Log(" OnFinished -- - --!__!_ ");
 	}
 
-	public void AssetsLoaded()
+	public void AssetsLoaded(object sender,EventArgs e)
 	{
 		Debug.Log(" assests Loaded!!!! ---  !! ");
 	}
