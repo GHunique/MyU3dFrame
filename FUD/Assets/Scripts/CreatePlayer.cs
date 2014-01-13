@@ -12,7 +12,7 @@ public class CreatePlayer : UGAssetObject ,AssetsEventsInterFace
 	{
 		_loadSucDelegate += new AssetsLoadedEventHandle(this.AssetsLoaded);
 		_loadFaicDelegate += new AssetsLoadedEventHandle(this.AssetsLoadFaild);
-//		this.Init();
+		this.Init();
 
 		Global.Version = 0;
 		LoadAsset("PlayerAsset");
@@ -53,7 +53,7 @@ public class CreatePlayer : UGAssetObject ,AssetsEventsInterFace
 		{
 			if(_assetBundle != null)
 			{
-				print("LoadAsset Succesfully");
+//				print("LoadAsset Succesfully");
 //				Object obj = _assetBundle.Load("U_Character_REF_FB");
 				Object obj = _assetBundle.mainAsset;
 				if(obj == null)

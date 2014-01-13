@@ -45,7 +45,7 @@ public class Locomotion : IDisposable
 	
 	public void Dispose ()
 	{
-		Debug.Log(" Locomotion Dispose  --- ");
+//		Debug.Log(" Locomotion Dispose  --- ");
 	}
 
 	~Locomotion()

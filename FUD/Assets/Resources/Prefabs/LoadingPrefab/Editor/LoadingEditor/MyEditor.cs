@@ -5,7 +5,7 @@ using UnityEditor;
 public class MyEditor : Editor
 {
 
-	void OnGUI()
+	void OnEnable()
 	{
 		loadingController loading = (loadingController)target;
 		loading.mValue =  EditorGUILayout.Slider(loading.mValue,1, 100);
@@ -30,5 +30,6 @@ public class MyEditor : Editor
 		}
 
 		loading.SceneName = EditorGUILayout.TextField("SceneName",loading.SceneName);
+
 	}
 }
