@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Resources\Prefabs\LoadingPrefab\Editor\LoadingEditor\MyEditor.cs" />
-     <Compile Include="Assets\Scripts\UG\DataBase\Editor\ExcelDataInspector.cs" />
+     <Compile Include="Assets\Scripts\UG\DataBase\LocalData\Editor\ExcelDataInspector.cs" />
      <Compile Include="Assets\Scripts\UG\PackageTools\Editor\IEAssetsBundle.cs" />
      <Compile Include="Assets\three-party\NGUI\Examples\Scripts\InventorySystem\Editor\InvDatabaseInspector.cs" />
      <Compile Include="Assets\three-party\NGUI\Examples\Scripts\InventorySystem\Editor\InvFindItem.cs" />
@@ -128,6 +128,8 @@
      <None Include="Assets\three-party\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
      <None Include="Assets\three-party\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\three-party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\Resources\Texture\MyTestTexture.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\three-party\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
      <None Include="Assets\three-party\NGUI\Resources\Shaders\Unlit - Text (AlphaClip).shader" />
      <None Include="Assets\three-party\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
@@ -150,11 +152,11 @@
      <None Include="Assets\three-party\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\three-party\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\three-party\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
- <Reference Include="Assets\three-party\DLL\Excel">
- <HintPath>Assets\three-party\DLL\Excel.dll</HintPath>
- </Reference>
  <Reference Include="Assets\three-party\DLL\ICSharpCode.SharpZipLib">
  <HintPath>Assets\three-party\DLL\ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\three-party\DLL\Excel">
+ <HintPath>Assets\three-party\DLL\Excel.dll</HintPath>
  </Reference>
  <Reference Include="Assets\three-party\DLL\Mono.Data.Sqlite">
  <HintPath>Assets\three-party\DLL\Mono.Data.Sqlite.dll</HintPath>

@@ -116,9 +116,5 @@ public class UGAssetObject : MonoBehaviour
 			_assetBundle = null;
 		}
 	}
-
-	public void Init()
-	{
-		UGAssetObjectManager.instance().AddObject(this);
-	}
+	
 }

@@ -46,15 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameSeting\Global.cs" />
      <Compile Include="Assets\Resources\Locomotion\Scripts\Locomotion.cs" />
      <Compile Include="Assets\Resources\Prefabs\LoadingPrefab\loadingController.cs" />
-     <Compile Include="Assets\Scripts\CreatePlayer.cs" />
-     <Compile Include="Assets\Scripts\CreatePlayerb.cs" />
      <Compile Include="Assets\Scripts\PublicFunctions.cs" />
-     <Compile Include="Assets\Scripts\UG\DataBase\AnalyseEXML.cs" />
-     <Compile Include="Assets\Scripts\UG\DataBase\ExcelData.cs" />
-     <Compile Include="Assets\Scripts\UG\DataBase\StructSets.cs" />
+     <Compile Include="Assets\Scripts\UG\DataBase\LocalData\AnalyseEXML.cs" />
+     <Compile Include="Assets\Scripts\UG\DataBase\LocalData\DataStructs.cs" />
+     <Compile Include="Assets\Scripts\UG\DataBase\LocalData\ExcelData.cs" />
+     <Compile Include="Assets\Scripts\UG\DataBase\LocalData\UGExcelDataManager.cs" />
+     <Compile Include="Assets\Scripts\UG\DataBase\LocalData\UGExcelDataSource.cs" />
+     <Compile Include="Assets\Scripts\UG\DirectoryManager.cs" />
      <Compile Include="Assets\Scripts\UG\NetWork\Client.cs" />
      <Compile Include="Assets\Scripts\UG\NetWork\Server.cs" />
      <Compile Include="Assets\Scripts\UG\NetWork\SocketManager.cs" />
@@ -63,15 +63,24 @@
      <Compile Include="Assets\Scripts\UG\UGBaseClasses\CameraFPlayer.cs" />
      <Compile Include="Assets\Scripts\UG\UGBaseClasses\ChangePlayerEquipment.cs" />
      <Compile Include="Assets\Scripts\UG\UGBaseClasses\MapCamera.cs" />
+     <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGAssetBody.cs" />
      <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGAssetObject.cs" />
-     <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGAssetObjectManager.cs" />
+     <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGAssetsBundle.cs" />
      <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGAssetsManager.cs" />
+     <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGBody.cs" />
+     <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGBodyObjectsManager.cs" />
+     <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGBundlePoolManager.cs" />
      <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGEventHandle.cs" />
+     <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGExitSceneDestroySingleton.cs" />
+     <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGGameSeting.cs" />
      <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGInterface.cs" />
-     <Compile Include="Assets\Scripts\User\ExcelDataSource.cs" />
+     <Compile Include="Assets\Scripts\UG\UGBaseClasses\UGObject.cs" />
+     <Compile Include="Assets\Scripts\User\CreateBody.cs" />
      <Compile Include="Assets\Scripts\User\xsy.cs" />
      <Compile Include="Assets\Scripts\User\xsyInterface.cs" />
      <Compile Include="Assets\Scripts\User\xsyParent.cs" />
+     <Compile Include="Assets\UGLocalData\Global.cs" />
+     <Compile Include="Assets\three-party\CompressKIt\GameDefine.cs" />
      <Compile Include="Assets\three-party\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\three-party\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\three-party\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -206,6 +215,8 @@
      <None Include="Assets\three-party\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
      <None Include="Assets\three-party\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\three-party\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\Resources\Texture\MyTestTexture.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\three-party\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
      <None Include="Assets\three-party\NGUI\Resources\Shaders\Unlit - Text (AlphaClip).shader" />
      <None Include="Assets\three-party\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
@@ -228,11 +239,11 @@
      <None Include="Assets\three-party\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\three-party\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\three-party\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
- <Reference Include="Assets\three-party\DLL\Excel">
- <HintPath>Assets\three-party\DLL\Excel.dll</HintPath>
- </Reference>
  <Reference Include="Assets\three-party\DLL\ICSharpCode.SharpZipLib">
  <HintPath>Assets\three-party\DLL\ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\three-party\DLL\Excel">
+ <HintPath>Assets\three-party\DLL\Excel.dll</HintPath>
  </Reference>
  <Reference Include="Assets\three-party\DLL\Mono.Data.Sqlite">
  <HintPath>Assets\three-party\DLL\Mono.Data.Sqlite.dll</HintPath>
